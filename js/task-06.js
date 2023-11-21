@@ -48,6 +48,7 @@ function onBtnCreateRefClick(event) {
 }
 
 function onBtnDestroyRefClick(event) {
+	inputRef.value = "";
 	divRef.innerHTML = "";
 	size = 30;
 }

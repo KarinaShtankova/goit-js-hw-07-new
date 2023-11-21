@@ -23,7 +23,25 @@ button {
 	cursor: pointer;
 }
 
+
+/* Task-2 start */
+
 .gallery {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 	list-style: none;
-	display: flexbox;
 }
+
+.item {
+	padding: 0;
+	margin: 0;
+}
+
+.pic {
+	display: block;
+	max-width: 500px;
+	height: auto;
+}
+
+/* Task-2 end */
